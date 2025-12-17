@@ -27,7 +27,7 @@ const items = [
     :ui="{ item: 'basis-1/1' }"
   >
     <div class="flex flex-col justify-between h-full gap-y-6 pr-10">
-      <p class="w-full h-3/4 rounded-lg font-semibold text-6xl">
+      <p class="w-full h-3/4 rounded-lg font-semibold text-5xl">
         {{ item["header"] }}
       </p>
       <p class="font-semibold text-lg w-full h-1/4">

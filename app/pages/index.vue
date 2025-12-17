@@ -3,7 +3,7 @@ import Carousel from "~/components/carousel.vue";
 </script>
 <template>
   <section
-    class="flex md:flex-row flex-col justify-between w-full my-5 bg-gray-800 md:pl-10 md:pr-18 mt-10 pt-20"
+    class="flex md:flex-row flex-col justify-between w-full bg-gray-800 md:pl-10 md:pr-18 pt-30"
   >
     <div class="flex flex-col justify-between w-full md:w-1/2 gap-y-3">
       <div class="w-full px-4">
@@ -40,7 +40,7 @@ import Carousel from "~/components/carousel.vue";
 
     <div class="md:w-1/2 w-full">
       <div class="h-24 hidden md:block" />
-      <div class="grid-cols-2 grid grid-rows-2 gap-4">
+      <div class="grid-cols-2 grid grid-rows-2 gap-4 p-3">
         <img
           src="~/assets/images/1.png"
           alt="Discover Nuxt"
@@ -65,4 +65,5 @@ import Carousel from "~/components/carousel.vue";
       </div>
     </div>
   </section>
+  <Hero1 />
 </template>

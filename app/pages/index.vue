@@ -66,4 +66,6 @@ import Carousel from "~/components/carousel.vue";
     </div>
   </section>
   <Hero1 />
+  <Hero2 />
+  <Hero3 />
 </template>

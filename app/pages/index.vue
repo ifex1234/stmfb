@@ -11,7 +11,7 @@ import Carousel from "~/components/carousel.vue";
       </div>
       <div class="flex flex-col text-white gap-y-4 mb-10 pl-4">
         <NuxtLink
-          class="w-11/12 rounded-md h-10 bg-amber-50 text-black mb-4 flex items-center justify-center font-medium"
+          class="w-11/12 rounded-md h-10 bg-gray-100 text-black mb-4 flex items-center justify-center font-medium"
           to="www.neocash.ng"
         >
           <img

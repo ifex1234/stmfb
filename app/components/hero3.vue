@@ -24,7 +24,7 @@
       class="outline-offset-2 outline-gray-400 border border-gray-300 focus:outline-2 rounded-md shadow-gray-400 hover:shadow-lg p-6 min-h-64 space-y-5 bg-gray-50"
     >
       <img
-        src="../assets//images/dolla.png"
+        src="../assets//images/schedule.png"
         alt=""
         class="justify-self-center"
       />
@@ -38,7 +38,7 @@
       class="outline-offset-2 outline-gray-400 border border-gray-300 focus:outline-2 rounded-md shadow-gray-400 hover:shadow-lg p-6 min-h-64 space-y-5 bg-gray-50"
     >
       <img
-        src="../assets//images/dolla.png"
+        src="../assets//images/timer.png"
         alt=""
         class="justify-self-center"
       />
@@ -52,7 +52,7 @@
       class="outline-offset-2 outline-gray-400 border border-gray-300 focus:outline-2 rounded-md shadow-gray-400 hover:shadow-lg p-6 min-h-64 space-y-5 bg-gray-50"
     >
       <img
-        src="../assets//images/dolla.png"
+        src="../assets//images/headphones.png"
         alt=""
         class="justify-self-center"
       />

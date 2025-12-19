@@ -11,7 +11,9 @@ import {
   neoProducts2,
   neoProducts3,
 } from "~/assets/lib/neocollect";
+import { neoCash, newCash1, newCash2 } from "~/assets/lib/neocash";
 import Card2 from "~/components/card2.vue";
+import Card1 from "~/components/card1.vue";
 </script>
 <template>
   <div class="px-4 py-5 bg-white">
@@ -42,39 +44,9 @@ import Card2 from "~/components/card2.vue";
       </span>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:px-2 lg:px-10 mt-10">
-      <div
-        class="p-6 outline-offset-2 outline-gray-400 border border-gray-300 focus:outline-2 rounded-md"
-      >
-        <h4 class="text-2xl font-medium mb-4">Digital Loan Applications</h4>
-        <p class="text-gray-500">
-          Submit loan applications directly through the app, with minimal
-          documentation required. Our intelligent processing system helps
-          deliver faster decisions while maintaining our commitment to
-          responsible lending.
-        </p>
-      </div>
-      <div
-        class="p-6 outline-offset-2 outline-gray-400 border border-gray-300 focus:outline-2 rounded-md"
-      >
-        <h4 class="text-2xl font-medium mb-4">Account Management</h4>
-        <p class="text-gray-500">
-          Monitor your balances, track transactions, and manage your savings
-          goals seamlessly. Whether you're running a market stall or managing
-          multiple business locations, NeoCash gives you complete visibility of
-          your finances.
-        </p>
-      </div>
-      <div
-        class="p-6 outline-offset-2 outline-gray-400 border border-gray-300 focus:outline-2 rounded-md"
-      >
-        <h4 class="text-2xl font-medium mb-4">Secure Payments</h4>
-        <p class="text-gray-500">
-          Transfer funds, pay bills, and manage vendor payments securely through
-          our encrypted platform. Every transaction is protected by
-          industry-leading security protocols and backed by our dedicated
-          support team.
-        </p>
-      </div>
+      <Card1 :title="neoCash.title" :content="neoCash.content" />
+      <Card1 :title="newCash1.title" :content="newCash1.content" />
+      <Card1 :title="newCash2.title" :content="newCash2.content" />
     </div>
     <div
       class="lg:w-11/12 mx-auto mt-10 md:px-4 lg:px-10 space-y-4 outline-offset-2 outline-gray-400 border border-gray-300 focus:outline-2 rounded-md p-6"
@@ -111,20 +83,6 @@ import Card2 from "~/components/card2.vue";
       <div
         class="grid grid-cols-1 md:grid-cols-3 gap-6 md:px-10 mt-10 md:-ml-10"
       >
-        <!-- <div
-          class="p-2 md:p-6 outline-offset-2 outline-gray-400 border border-gray-300 focus:outline-2 rounded-md"
-        >
-          <h4 class="md:text-2xl text-xl font-medium mb-4">
-            Direct Debit Management
-          </h4>
-          <ul class="list-disc list-inside space-y-2">
-            <li>Real-time mandate status monitoring</li>
-            <li>Automated mandate setup and activation</li>
-            <li>Flexible collection scheduling</li>
-            <li>Instant notification system</li>
-          </ul>
-        </div> -->
-
         <Card2 :title="neoProducts.title" :listItems="neoProducts.listItems" />
         <Card2
           :title="neoProducts2.title"
@@ -134,32 +92,6 @@ import Card2 from "~/components/card2.vue";
           :title="neoProducts3.title"
           :listItems="neoProducts3.listItems"
         />
-
-        <!-- <div
-          class="p-2 md:p-6 outline-offset-2 outline-gray-400 border border-gray-300 focus:outline-2 rounded-md"
-        >
-          <h4 class="md:text-2xl text-xl font-medium mb-4">
-            Advanced Analytics
-          </h4>
-          <ul class="list-disc list-inside space-y-2">
-            <li>Comprehensive collection reporting</li>
-            <li>Performance analytics dashboard</li>
-            <li>Risk monitoring tools</li>
-            <li>Collection efficiency metrics</li>
-          </ul>
-        </div> -->
-
-        <!-- <div
-          class="p-2 md:p-6 outline-offset-2 outline-gray-400 border border-gray-300 focus:outline-2 rounded-md"
-        >
-          <h4 class="md:text-2xl text-xl font-medium mb-4">API Integration</h4>
-          <ul class="list-disc list-inside space-y-2">
-            <li>Secure REST APIs</li>
-            <li>Seamless integration with existing systems</li>
-            <li>Comprehensive documentation</li>
-            <li>Developer support</li>
-          </ul>
-        </div> -->
       </div>
     </div>
     <div

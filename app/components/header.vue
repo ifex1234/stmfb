@@ -31,12 +31,7 @@
         active-class="bg-gray-200 font-bold rounded-md"
         >Services</NuxtLink
       >
-      <NuxtLink
-        class="hover:bg-gray-200 h-10 w-16 hover:rounded-md place-content-center flex items-center"
-        to="/careers"
-        active-class="bg-gray-200 font-bold rounded-md"
-        >Careers</NuxtLink
-      >
+     
       <NuxtLink
         class="hover:bg-gray-200 h-10 w-16 hover:rounded-md place-content-center flex items-center"
         to="/contact"

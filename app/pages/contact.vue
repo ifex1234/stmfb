@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 <template>
   <div class="bg-white">
-    <div class="pt-20 px-14 w-full">
+    <div class="pt-20 px-8 lg:px-14 w-full">
       <h1 class="text-3xl font-bold mb-4">Contact Us</h1>
     </div>
     <div
